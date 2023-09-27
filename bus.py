@@ -12,7 +12,7 @@ st.set_page_config(
 )
 
 # csv読み込み
-df0 = pd.read_csv('bass.csv', index_col = 0, encoding="Shift-JIS")
+df0 = pd.read_csv('bus.csv', index_col = 0, encoding="Shift-JIS")
 
 # セッション情報の初期化
 if "page_id" not in st.session_state:
